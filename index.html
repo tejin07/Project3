@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Online Courses</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f6f8fa; }
+        header { background: #2d6cdf; color: #fff; padding: 20px 0; text-align: center; }
+        nav { background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        nav ul { list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; }
+        nav ul li { margin: 0 20px; }
+        nav ul li a { text-decoration: none; color: #2d6cdf; font-weight: bold; }
+        .hero { padding: 60px 20px; text-align: center; background: linear-gradient(90deg, #2d6cdf 60%, #4bb1df 100%); color: #fff; }
+        .hero h1 { font-size: 2.5em; margin-bottom: 20px; }
+        .hero p { font-size: 1.2em; margin-bottom: 30px; }
+        .hero button { background: #fff; color: #2d6cdf; border: none; padding: 15px 30px; font-size: 1em; border-radius: 25px; cursor: pointer; font-weight: bold; }
+        .features { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin: 40px 0; }
+        .feature { background: #fff; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); padding: 30px; width: 280px; text-align: center; }
+        .feature h3 { color: #2d6cdf; margin-bottom: 10px; }
+        footer { background: #2d6cdf; color: #fff; text-align: center; padding: 15px 0; margin-top: 40px; }
+        @media (max-width: 800px) {
+            .features { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EduLearn</h1>
+        <p>Your gateway to quality online courses</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h1>Learn Anytime, Anywhere</h1>
+        <p>Explore hundreds of expert-led online courses and boost your skills for the future.</p>
+        <button onclick="window.location='#courses'">Browse Courses</button>
+    </section>
+    <section class="features" id="courses">
+        <div class="feature">
+            <h3>Programming</h3>
+            <p>Master Python, JavaScript, and more with hands-on projects.</p>
+        </div>
+        <div class="feature">
+            <h3>Design</h3>
+            <p>Learn graphic, UI/UX, and web design from industry experts.</p>
+        </div>
+        <div class="feature">
+            <h3>Business</h3>
+            <p>Develop leadership, marketing, and entrepreneurship skills.</p>
+        </div>
+        <div class="feature">
+            <h3>Languages</h3>
+            <p>Improve your English, Spanish, French, and more.</p>
+        </div>
+    </section>
+    <section id="about" style="max-width:700px;margin:40px auto;text-align:center;">
+        <h2>About EduLearn</h2>
+        <p>EduLearn is dedicated to providing accessible, high-quality online education for learners worldwide. Our platform features expert instructors, interactive lessons, and flexible learning options to help you achieve your goals.</p>
+    </section>
+    <section id="contact" style="max-width:700px;margin:40px auto;text-align:center;">
+        <h2>Contact Us</h2>
+        <p>Email: support@edulearn.com | Phone: +1 234 567 890</p>
+    </section>
+    <footer>
+        &copy; 2025 EduLearn. All rights reserved.
+    </footer>
+</body>
+</html>
